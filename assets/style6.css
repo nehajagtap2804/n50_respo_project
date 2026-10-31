@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d1{
+    width:100%;
+    
+    padding: 20px;
+
+
+}
+nav{
+   /* border: 1px solid black;*/
+   background-color: red;
+   border-radius: 5px;
+   position:sticky;
+   top:20px;
+   width:100%;
+   
+}
+.h-nav{
+   /* border:1px solid  red;*/
+    display:flex;
+    list-style: none;
+    
+}
+.h-items{
+   /* border:1px solid black;*/
+    padding:15px;
+    width:120px;
+}
+.h-items:hover{
+    background-color: rgba(138, 10, 10, 0.936);
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight:900px;
+    font-size:17px;
+}
+.v-nav{
+    position:absolute;
+    top:50px;
+    left:240px;
+    background-color:rgba(138, 10, 10, 0.936);
+    width:120px;
+    list-style: none;
+    display:none;
+}
+.v-items{
+    padding:20px;
+}
+.v-items:hover{
+    border-bottom: 1px solid white;
+}
+.toggler:hover .v-nav{
+    display:inline;
+}
+.chat-bot-cont{
+    width:80px;
+    height:80px;
+    background-color: red;
+    border-radius:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+}
+.chat-bot{
+   color:white;
+   font-size:40px;
+   
+}
+.c1{
+    width:100%;
+    height:100vh;
+    background-image:url("images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg") ;
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+.card{
+    color:red;
+    
+
+
+}
+.sec1,.sec2,.sec3{
+    width:300px;
+    height:50px;
+  /*  border:1px solid black;*/
+   position:relative;
+
+   justify-content: center;
+  
+
+}
+.sec2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left,.right{
+    position: relative;
+    width:100px;
+    height:100%;
+    /*border:1px solid black;*/
+    
+
+}
+.anim-top{
+    position:absolute;
+    top:0;
+     animation-name:animtop;
+     animation-duration:2s;
+    
+}
+.anim-left{
+    position: absolute;
+    left:0;
+    animation-name:animleft;
+    animation-duration:2s;
+}
+.anim-right{
+    position:absolute;
+   right:80px;
+   animation-name:animright;
+    animation-duration:2s;
+
+}
+.anim-bottom{
+    position:absolute;
+    bottom:0;
+    animation-name:animbottom;
+    animation-duration:2s;
+
+
+}
+@keyframes animbottom{
+     from{
+        position:absolute;
+        top:-700px;
+     }
+     to{
+        bottom:0;
+     }
+}
+
+@keyframes animtop{
+     from{
+        position:absolute;
+        top:-700px;
+     }
+     to{
+        top:0;
+     }
+}
+@keyframes animleft{
+     from{
+        position:absolute;
+        left:-700px;
+     }
+     to{
+        left:0;
+     }
+}
+@keyframes animright{
+     from{
+        position:absolute;
+        right:-700px;
+     }
+     to{
+        right:80px;
+     }
+}
+@keyframes animbottom{
+     from{
+        position:absolute;
+        bottom:-700px;
+     }
+     to{
+        bottom:0;
+     }
+}

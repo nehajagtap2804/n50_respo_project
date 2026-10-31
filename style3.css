@@ -1,0 +1,191 @@
+.d1{
+    width:100%;
+    height:100vh;
+    background-color: aquamarine;
+}
+
+.container{
+    width:100%;
+    height:100%;
+    border:1px solid black;
+}
+.container1{
+    width:100%;
+    height:25%;
+    border:1px solid black;
+    display:flex;
+    
+}
+.left,.mid,.right{
+    width:33%;
+    height:100%;
+    border:1px solid black;
+
+    
+}
+.left{
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    
+
+}
+.top{
+    height:20%;
+    width:10%;
+    border: 1px solid black;
+
+}
+.bottom{
+   height:20%;
+    width:10%;
+    border: 1px solid black; 
+}
+
+
+.mid{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    
+    gap:10px;
+
+}
+.box2{
+    height:20%;
+    width:10%;
+    border: 1px solid black;
+}
+.box1{
+    height: 20%;
+    width:10%;
+    border: 1px solid black;
+}
+.right{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    
+    gap:10px;
+
+
+
+}
+.top-right{
+    height:20%;
+    width:10%;
+    border: 1px solid black;
+}
+.bottom-right{
+     height:20%;
+    width:10%;
+    border: 1px solid black;  
+}
+
+
+
+
+.container2{
+    width:100%;
+    height:25%;
+    border:1px solid black;
+    display: flex;
+}
+.a1{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    
+    gap:10px;
+
+
+
+}
+.rightbox{
+    height:20%;
+    width:10%;
+    border: 1px solid black;  
+    
+}
+.leftbox{
+     height:20%;
+    width:10%;
+    border: 1px solid black;  
+}
+.a3,.a2,.a1{
+    width:33%;
+    height:100%;
+    border:1px solid black;
+}
+a3{
+    width:100%;
+    height:100%;
+}
+.a3-top{
+    width:100%;
+    height:100%;
+    border:1px solid black;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+}
+.a3-top-left{
+    height:20%;
+    width:10%;
+    border: 1px solid black;  
+}
+.a3-top-right{
+    height:20%;
+    width:10%;
+    border: 1px solid black;  
+}
+.a3-bottom{
+    
+    height:20%;
+    width:10%;
+    border: 1px solid black; 
+
+}
+
+
+
+.container3{
+    width:100%;
+    height:25%;
+    border:1px solid black;
+    display:flex;
+}
+.left,.mid,.right{
+    width:33%;
+    height:100%;
+    border:1px solid black;
+}
+
+.container4{
+    width:100%;
+    height:25%;
+    border:1px solid black;
+    display:flex;
+}
+.left,.mid,.right{
+    width:33%;
+    height:100%;
+    border:1px solid black;
+}
